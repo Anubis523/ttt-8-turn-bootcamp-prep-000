@@ -30,6 +30,6 @@ end
 
 def turn 
   puts "Please enter 1-9:"
-  input = input_to_indexgets.strip
+  input = input_to_index(gets.strip)
   
 end
