@@ -27,3 +27,8 @@ end
 def move (board, index, xo)
   board[index] = xo
 end
+
+def turn 
+  puts "Please enter 1-9:"
+  input = get.strip
+end
