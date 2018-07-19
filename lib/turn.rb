@@ -14,3 +14,5 @@ end
 def valid_move?(board, index)
   return (board[index] != nil && )
 end
+
+def 
