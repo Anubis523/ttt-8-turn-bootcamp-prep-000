@@ -12,7 +12,13 @@ def input_to_index?(input)
 end
 
 def valid_move?(board, index)
-  return (board[index] != nil && )
+  return (board[index] != nil && position_taken?(board[index]) != true)
 end
 
-def 
+def position_taken?(input)
+  if (input == "X" || input == "O")
+    true
+  elsif (input == "" ||input == " " ||input == nil)
+    false
+  end
+end
