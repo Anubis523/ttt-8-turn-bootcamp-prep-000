@@ -23,3 +23,7 @@ def position_taken? (input)
     return false
   end
 end
+
+def move (board, index, xo)
+  board[index] = xo
+end
